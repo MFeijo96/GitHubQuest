@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/commit_item_height"
+    android:padding="@dimen/default_space"
+    android:paddingLeft="@dimen/double_space"
+    android:paddingStart="@dimen/double_space"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView_author_commitView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maurício Feijó"
+            android:textSize="16sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/textView_message_commitView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mensagem de commit de teste que deve ficar com os tres pontos no final por ser uma mensagem muito grande"
+            android:textSize="12sp"
+            android:textColor="@color/color3"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/double_space">
+        <TextView
+            android:id="@+id/textView_date_commitView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="20/10/2019"
+            android:textSize="10sp"
+            android:textAlignment="center"
+            android:textColor="@color/color3"/>
+    </FrameLayout>
+
+</LinearLayout>

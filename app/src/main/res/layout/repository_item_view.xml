@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/repository_item_height"
+    android:padding="@dimen/default_space"
+    android:paddingLeft="@dimen/double_space"
+    android:paddingStart="@dimen/double_space"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_title_repositoryView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo do repositório"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView_description_repositoryView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Breve descrição de até duas linhas sobre a descrição do repositório com elipses no final"
+        android:textColor="@color/color3"
+        android:textSize="12sp"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+</LinearLayout>

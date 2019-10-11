@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">GitHubQuest</string>
+    <string name="initial_message">Click on menu to continue</string>
+    <string name="at">at</string>
+</resources>

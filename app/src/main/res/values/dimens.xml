@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_space">8dp</dimen>
+    <dimen name="double_space">16dp</dimen>
+
+    <dimen name="repository_item_height">90dp</dimen>
+
+    <dimen name="commits_header_height">100dp</dimen>
+    <dimen name="commit_item_height">60dp</dimen>
+</resources>
